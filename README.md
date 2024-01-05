@@ -92,6 +92,11 @@ go build -o gsshpass.exe
 
 This will compile the source code into an executable named `gsshpass.exe`.
 
+## via go get
+```shell
+go get github.com/scottpeterman/gsshpass@v0.1.0-beta.1
+
+```
 ## Error Reporting
 
 In case of a timeout due to an insufficient number of prompts, the error message will now include the actual count of prompts seen. This aids in adjusting the `--prompt-count` for subsequent executions.
