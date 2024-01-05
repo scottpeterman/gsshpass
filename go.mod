@@ -1,4 +1,4 @@
-module gsshpass
+module github.com/scottpeterman/gsshpass
 
 go 1.21
 
