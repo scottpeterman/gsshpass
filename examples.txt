@@ -1,0 +1,2 @@
+gsshpass -h 172.16.1.2:22 -u cisco -p cisco -c "term len 0,show version,show interfaces,," --invoke-shell --prompt "#" --prompt-count 3 -t 30
+gsshpass -h 172.16.1.2:22 -u cisco -p cisco --command-file config_banner.txt --invoke-shell --prompt "#" -prompt-count 4
